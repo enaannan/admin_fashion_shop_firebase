@@ -1,8 +1,6 @@
 //should hit API endpoint
 import 'package:http/http.dart' as http;
 import 'dart:convert' as convert;
-import 'package:admin_fashion_shop/Models/chrochet_data.dart';
-import 'package:provider/provider.dart';
 
 void getAllProducts() async {
 //post request

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:admin_fashion_shop/components/CircleTabIndicator.dart';
 import 'package:admin_fashion_shop/constants/constants.dart';
-import 'package:admin_fashion_shop/screens/addproduct_screen.dart';
 import 'package:admin_fashion_shop/components/chochets_list_widget.dart';
 import 'package:admin_fashion_shop/utils/interface.dart';
 
@@ -93,12 +92,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
         floatingActionButton: FloatingActionButton.extended(
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(builder: (context) => AddProductScreen()),
-            );
-          },
+          onPressed: () {},
           label: Icon(Icons.add),
           backgroundColor: Colors.grey[500],
         ),

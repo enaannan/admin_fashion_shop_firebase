@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:admin_fashion_shop/components/PriceCard.dart';
 import 'package:admin_fashion_shop/Models/products.dart';
 
 class ProductTile extends StatelessWidget {
