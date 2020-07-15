@@ -13,7 +13,7 @@ class _BottomMenuButtonState extends State<BottomMenuButton> {
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadiusDirectional.only(
-              topStart: Radius.circular(51.0),
+              topStart: Radius.circular(50.0),
               bottomStart: Radius.circular(50.0),
               topEnd: Radius.circular(50.0),
               bottomEnd: Radius.circular(50.0)),
